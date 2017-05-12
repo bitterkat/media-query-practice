@@ -124,6 +124,9 @@ footer form {
      border: 1px solid black;
      padding: 1rem;
      width: 100%; }
+  img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 701px) {
