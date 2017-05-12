@@ -109,10 +109,21 @@ footer form {
    h1 { color: yellow;}
 }
 
-@media (min-width: 411px) {
+@media (max-width: 411px) {
    body { color: purple; }
    h1 { color: orange; }
-   li { display: block; }
+   nav ul {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin: 0;
+     padding: 0;
+   }
+   nav li {
+     display: block;
+     border: 1px solid black;
+     padding: 1rem;
+     width: 100%; }
 }
 
 @media (min-width: 701px) {
