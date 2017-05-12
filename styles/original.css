@@ -106,10 +106,12 @@ footer form {
 
 @media {
    body { color: red; }
+   h1 { color: yellow;}
 }
 
 @media (min-width: 411px) {
    body { color: purple; }
+   h1 { color: orange; }
 }
 
 @media (min-width: 701px) {
