@@ -112,21 +112,27 @@ footer form {
 @media (max-width: 411px) {
    body { color: purple; }
    h1 { color: orange; }
-   nav ul {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     margin: 0;
-     padding: 0;
-   }
-   nav li {
-     display: block;
-     border: 1px solid black;
-     padding: 1rem;
-     width: 100%; }
-  img {
+}
+
+@media (max-width: 600px) {
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: block;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;}
+article figure {
     width: 100%;
+    margin: auto;
   }
+
 }
 
 @media (min-width: 701px) {
